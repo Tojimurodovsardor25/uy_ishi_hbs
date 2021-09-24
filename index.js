@@ -11,7 +11,6 @@ const hbs = exphbs.create({
     extname: 'hbs'
 })
 
-
 app.engine('hbs', hbs.engine)
 app.set('views engine', 'hbs')
 app.set('views', 'views')
@@ -23,6 +22,7 @@ app.get('/', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render('contact.hbs')
 })
+
 app.get('/index', (req, res) => {
     res.render('index.hbs')
 })

@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tojimurodovsardor25/uy_ishi_hbs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tojimurodovsardor25/uy_ishi_hbs/issues"
+  },
+  "homepage": "https://github.com/Tojimurodovsardor25/uy_ishi_hbs#readme"
 }
